@@ -1,0 +1,9 @@
+body{
+    background: green;
+}
+
+body,section,form,header,ul,input,button,h1,h2,img{
+    margin:2px;
+    padding:1px;
+    border: 1px;
+}
