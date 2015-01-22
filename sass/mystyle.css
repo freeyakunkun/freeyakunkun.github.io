@@ -1,9 +1,118 @@
-body{
-    background: green;
-}
+/* line 8, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+body {
+  background: white; }
 
-body,section,form,header,ul,input,button,h1,h2,img{
-    margin:2px;
-    padding:1px;
-    border: 1px;
-}
+/* line 12, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+body, section, form, header, ul, input, button, h1, h2, img {
+  margin: 2px;
+  padding: 1px;
+  border: 1px; }
+
+/* line 18, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+body {
+  font-size: 62.5%; }
+
+/* line 22, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+section.hero {
+  color: white;
+  max-width: 100em;
+  margin: 0 auto;
+  background-image: url(../img/tt.jpg);
+  background-size: cover;
+  padding-bottom: 4em; }
+  /* line 30, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+  section.hero header image {
+    float: left;
+    width: 100px;
+    margin-left: 1em;
+    margin-top: 1em; }
+  /* line 35, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+  section.hero header ul {
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em; }
+    /* line 39, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+    section.hero header ul li {
+      list-style: none;
+      float: left;
+      margin-left: 2em;
+      font-size: 1.4em;
+      padding: 0.2em;
+      border-radius: 4px; }
+      /* line 46, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+      section.hero header ul li:last-child {
+        border: 1px solid white; }
+
+/* line 56, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+section.hero h1 {
+  clear: both;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 2em; }
+
+/* line 64, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+section.hero h2 {
+  font-size: 2em;
+  text-align: center; }
+
+/* line 69, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+section.hero form {
+  text-align: center; }
+
+/* line 73, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+section.hero form input {
+  width: 20em;
+  height: 2em;
+  background: rgba(255, 255, 255, 0.6); }
+
+/* line 79, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+section.hero form button {
+  background-color: green;
+  color: white;
+  height: 2em;
+  padding: 0.5em; }
+
+/* line 86, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+section.numbers {
+  max-width: 100em;
+  margin: 0 auto;
+  position: relative;
+  top: -3em; }
+  /* line 92, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+  section.numbers ul {
+    background: white;
+    margin: 0 10%;
+    border: 1px solid #ccc; }
+    /* line 97, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+    section.numbers ul:after {
+      clear: both;
+      display: block;
+      content: ' '; }
+    /* line 103, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+    section.numbers ul li {
+      list-style: none;
+      display: block;
+      float: left;
+      width: 25%;
+      position: relative;
+      text-align: center;
+      padding: 3em 0;
+      background: white; }
+      /* line 113, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+      section.numbers ul li:after {
+        content: ' ';
+        background: #ccc;
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0; }
+        /* line 123, /Users/twer/freeyakunkun.github.io/sass/mystyle.scss */
+        section.numbers ul li:after h3 {
+          font-size: 1.6em;
+          font-weight: bold;
+          line-height: 1.2; }
+
+/*# sourceMappingURL=mystyle.css.map */

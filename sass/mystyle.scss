@@ -1,0 +1,131 @@
+@mixin common-section{
+    max-width: 100em;
+    margin:0 auto;
+}
+
+
+
+body{
+    background: white;
+}
+
+body,section,form,header,ul,input,button,h1,h2,img{
+    margin:2px;
+    padding:1px;
+    border: 1px;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+section.hero{
+    color:white;
+    max-width: 100em;
+    margin: 0 auto;
+    background-image: url(../img/tt.jpg);
+    background-size: cover; 
+    padding-bottom: 4em;
+    header{
+        image{
+            float: left;
+            width: 100px;
+            margin-left: 1em;
+            margin-top:1em;}
+        ul{
+            float: right;
+            margin-right: 1em;
+            margin-top: 1em;
+            li{
+             list-style: none;
+             float:left; 
+             margin-left: 2em;  
+             font-size: 1.4em;
+            padding: .2em;
+            border-radius: 4px; 
+            &:last-child{
+    border:1px solid white;
+}}
+        }
+    }
+}
+
+
+
+
+section.hero h1{
+   clear:both; 
+    font-size:4em;
+    text-align: center;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+section.hero h2{
+   font-size: 2em;
+   text-align: center;
+}
+
+section.hero form{
+   text-align: center;
+}
+
+section.hero form input{
+    width:20em;
+    height:2em;
+    background: rgba(255,255,255,.6);
+}
+
+section.hero form button{
+    background-color: green;
+    color:white;
+    height:2em;
+    padding:.5em;
+}
+
+section.numbers{
+    @include common-section();
+    position: relative;
+    top:-3em;
+ 
+    
+    ul{
+        background: white;
+        margin:0 10%;
+        border:1px solid #ccc;
+        
+        &:after{
+            clear:both;
+            display:block;
+            content:' '
+        }
+        
+        li{
+            list-style: none;
+            display: block;
+            float:left;
+            width:25%;
+            position:relative;
+            text-align: center;
+            padding:3em 0;
+            background: white;
+            
+        &:after{
+            content:' ';
+            background: #ccc;
+            display: block;
+            width:1px;
+            height: 100%;
+            position:absolute;
+            right:0;
+            top:0;
+            
+        h3{
+            font-size:1.6em;
+            font-weight:bold;
+            line-height: 1.2;}
+            
+        }
+        }
+    }
+}
